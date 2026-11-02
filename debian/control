@@ -1,0 +1,13 @@
+Source: kosmos-desktop
+Section: metapackages
+Priority: Optional
+Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: kosmos-desktop
+Architecture: all
+Depends: kde-plasma-desktop, kate, kosmos-desktop-defaults
+Description: Metapackage to install KosmOS desktop.
+ This metapackage installs a selection of packages to run
+ a minimal desktop environment.
