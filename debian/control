@@ -7,7 +7,15 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: kosmos-desktop
 Architecture: all
-Depends: kde-plasma-desktop, kate, kosmos-desktop-defaults
+Depends:
+ kde-plasma-desktop,
+ kosmos-welcome,
+ kate,
+ chromium,
+ kosmos-desktop-defaults,
+ kosmos-welcome,
+ kosmos-plasma-theme,
+ kosmos-notifications
 Description: Metapackage to install KosmOS desktop.
  This metapackage installs a selection of packages to run
  a minimal desktop environment.
