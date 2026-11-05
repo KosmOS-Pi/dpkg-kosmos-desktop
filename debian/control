@@ -15,7 +15,8 @@ Depends:
  kosmos-desktop-defaults,
  kosmos-welcome,
  kosmos-plasma-theme,
- kosmos-notifications
+ kosmos-notifications,
+ realvnc-vnc-server
 Description: Metapackage to install KosmOS desktop.
  This metapackage installs a selection of packages to run
  a minimal desktop environment.
