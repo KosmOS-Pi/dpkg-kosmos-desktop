@@ -1,3 +1,9 @@
+kosmos-desktop (1.0-3~deb13) trixie; urgency=medium
+
+  * Keep only kde-plasma-desktop in deps, move other in recommends. 
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Fri, 13 Nov 2026 14:38:48 +0100
+
 kosmos-desktop (1.0-2~deb13) trixie; urgency=medium
 
   * Add dep for VNC server, since we don't install
